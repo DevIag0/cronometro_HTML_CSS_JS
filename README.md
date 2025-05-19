@@ -40,11 +40,4 @@ O projeto é composto por três arquivos principais:
 - CSS3
 - JavaScript (ES6+)
 
-## Personalização
-
-O projeto pode ser facilmente personalizado:
-
-- Altere as cores no arquivo CSS para mudar a aparência
-- Modifique a precisão do cronômetro no JavaScript (atualmente atualiza a cada segundo)
-- Adicione mais funcionalidades como voltas (laps) ou alarmes
 
