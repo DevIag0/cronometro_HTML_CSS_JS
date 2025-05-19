@@ -1,0 +1,81 @@
+/* Reset básico para todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilização do body para centralizar o conteúdo verticalmente e horizontalmente */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Estilização do container principal */
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilização do título principal */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilização do display do cronômetro */
+#display {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #333;
+}
+
+/* Alinhamento e espaçamento entre os botões de controle */
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Estilização básica dos botões */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+/* Efeito hover para os botões */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Cor específica para o botão de pausar */
+#pause {
+    background-color: #f44336;
+}
+
+#pause:hover {
+    background-color: #d32f2f;
+}
+
+/* Cor específica para o botão de resetar */
+#reset {
+    background-color: #2196F3;
+}
+
+#reset:hover {
+    background-color: #0b7dda;
+}
